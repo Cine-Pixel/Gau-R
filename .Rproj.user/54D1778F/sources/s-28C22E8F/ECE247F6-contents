@@ -1,0 +1,12 @@
+data = c(10, 19, 17, 40, 5, 12, 21, 2, 10, 37, 19, 6, 31, 23, 6, 7, 53, 15, 6, 27)
+data = sort(data)
+data
+step = (data[1] + data[length(data)]) / 5
+step
+
+hist(data, 
+     main="Percentages of 9th graders who had used marijuana", 
+     xlab="Distribution in percent",
+     breaks = step     
+)
+

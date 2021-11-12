@@ -1,6 +1,5 @@
-A = matrix(c(-1, 2, -2, 2, 1, -1, 1, 2, -1), nrow=3)
-B = matrix(c(3, -1, 1, -1, 1, 0, 1, 0, 1), nrow=3)
-
+A = matrix(c(-1, 2, -2, 2, 1, -1, 1, 2, -1), nrow=3, byrow = TRUE)
+B = matrix(c(3, -1, 1, -1, 1, 0, 1, 0, 1), nrow=3, byrow = TRUE)
 
 # 1. AB
 A%*%B

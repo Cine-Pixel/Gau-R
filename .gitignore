@@ -2,3 +2,5 @@
 .RData
 .Rhistory
 .Rprogramming.Rproj
+.venv/
+.ipynb_checkpoints/

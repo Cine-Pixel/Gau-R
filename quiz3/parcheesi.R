@@ -1,7 +1,3 @@
-n = 10000
-
-mean(all_turns)
-
 play = function() {
   turns = 0
   while(TRUE) {
@@ -14,4 +10,5 @@ play = function() {
   return(turns)
 }
 
+n = 10000
 mean(replicate(n, play(), simplify = T))

@@ -2,7 +2,7 @@ all_turns = c()
 target = 10
 n = 10000
 for(i in 1:n) {
-  current = -1 
+  current = 0 
   turns = 0
   while(current < 10) {
     turns = turns + 1
